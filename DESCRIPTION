@@ -1,0 +1,12 @@
+Package: tfmice
+Type: Package
+Title: tfcombined performs enrichement of combinatorial mice transcription factors
+Version: 1.0.0
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: based on protein-protein interactions databases tfcombined allowed to identify
+  combination of transcription factor enriched among a Mus musculus gene symbol list 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
