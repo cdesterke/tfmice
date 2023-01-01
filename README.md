@@ -32,7 +32,7 @@ custom<-c("Hoxa10","Hoxa11","Hoxa13","Hoxa13","Hoxa2","Hoxa5","Hoxa9","Hoxb13","
 res<-tfcrcalc(custom)
 head(res,n=15)
 ```
-#![res](https://github.com/cdesterke/tfmice/blob/main/res.png)
+![res](https://github.com/cdesterke/tfmice/blob/main/res.png)
 
 
 ```r
@@ -40,7 +40,7 @@ res<-head(res,n=15)
 plotes(res)
 
 ```
-#![es](https://github.com/cdesterke/tfmice/blob/main/es.png)
+![es](https://github.com/cdesterke/tfmice/blob/main/es.png)
 
 
 ### barplot of negative log10 p-values
@@ -72,7 +72,7 @@ output with nicely layout
 tfcrnet(custom,res,layout=layout_nicely,cex=1,distance=1.5)
 
 ```
-#![nicely](https://github.com/cdesterke/tfmice/blob/main/netnicely.png)
+![nicely](https://github.com/cdesterke/tfmice/blob/main/netnicely.png)
 
 output with star layout
 
@@ -80,7 +80,7 @@ output with star layout
 tfcrnet(custom,res,layout=layout_as_star,cex=1,distance=1.5)
 
 ```
-#![star](https://github.com/cdesterke/tfmice/blob/main/netstar.png)
+![star](https://github.com/cdesterke/tfmice/blob/main/netstar.png)
 
 
 
